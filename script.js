@@ -7,6 +7,6 @@ page.open(url, function (status) {
   setTimeout(function(){
     console.log('render complete');
     phantom.exit();
-  },120000);
+  },1000 * 60 * 60);
 
 });
