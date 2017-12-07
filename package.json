@@ -1,0 +1,22 @@
+{
+  "name": "phantom1",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helthea/phantom1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helthea/phantom1/issues"
+  },
+  "homepage": "https://github.com/helthea/phantom1#readme",
+  "dependencies": {
+    "phantomjs-prebuilt": "2.1.16"
+  }
+}
