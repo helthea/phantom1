@@ -7,6 +7,7 @@ var childArgs = [
   path.join(__dirname, 'script.js')
 ]
 
+
 childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
   console.log(err,stdout,stderr);
 })
