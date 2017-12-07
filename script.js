@@ -8,4 +8,5 @@ page.open(url, function (status) {
     console.log('render complete');
     phantom.exit();
   },1000 * 60 * 60);
+  
 });
