@@ -7,7 +7,7 @@ page.open(url, function (status) {
   console.log('starting render');
 
   // Set the timeout
-  var mins = 45;
+  var mins = 120;
   setTimeout(function(){
     console.log('render complete');
     phantom.exit();
