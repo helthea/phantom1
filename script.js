@@ -3,12 +3,14 @@ var page = require('webpage').create();
 var url = 'http://s3.amazonaws.com/birdkage/experiments.html';
 page.open(url, function (status) {
   //Page is loaded!
-  var mins = 45;
+
   console.log('starting render');
+
+  // Set the timeout
+  var mins = 45;
   setTimeout(function(){
     console.log('render complete');
     phantom.exit();
-    
   },1000 * 60 * mins);
 
 });
